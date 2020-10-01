@@ -1,0 +1,1 @@
+Given are three positive integers k, m, n representing a population containing k+m+n organisms: k individuals are homozygous dominant for a trait, m individuals are heterozygous and n are homozygous recessive. Return the probability that two randomly selected individuals will produce an individual displaying a dominant allele.
