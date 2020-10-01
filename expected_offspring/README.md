@@ -1,0 +1,1 @@
+Six nonnegative integers are given, representing the following genotypes: AA-AA, AA-Aa, AA-aa, Aa-Aa, Aa-aa, aa-aa. Return the expected number of offspring expressing the dominant phenotype under the assumption that every couple has exactly two offspring.
