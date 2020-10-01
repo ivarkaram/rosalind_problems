@@ -6,7 +6,7 @@ def file_id (sequence):
             id_s = line.strip()
             gc_ids[id_s] = seq
 
-        if not line.startswith('>'):
+        else:
             line = line.strip()
             gc_ids[id_s] += line
     return gc_ids
