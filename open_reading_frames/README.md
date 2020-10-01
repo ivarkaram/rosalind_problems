@@ -1,1 +1,1 @@
-Given a DNA string s in fasta format, return every distinct candidate protein string that can be translated from ORFs of s.
+Given a DNA string s in fasta format, return every distinct candidate protein string that can be translated from ORFs of s. Parts of find_orfs function credited Revanth Reddy on the Rosalind forum for the pedagogic solution.

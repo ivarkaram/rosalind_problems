@@ -59,8 +59,8 @@ def find_orfs (dna):
         # Transcribe both the sequences
         rna = transcribe_dna (seq)
         # Find the start and stop codons
-        starts = [aa.start() for aa in re.finditer('AUG', rna)]
-        stops = [aa.start() for aa in re.finditer('UAG|UUG|UAA', rna)]
+        starts = [nuc.start() for nuc in re.finditer('AUG', rna)]
+        stops = [nuc.start() for nuc in re.finditer('UAG|UUG|UAA', rna)]
         
         # Iterate over the starts and stops
         for start_codon in starts:
