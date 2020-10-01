@@ -1,0 +1,1 @@
+Given at most 15 UniProt Protein Database access IDs, return for each protein possessing the N-glycosylation motif. Output its given access ID followed by a list of locations in the protein string where the motif can be found.
